@@ -1,0 +1,54 @@
+/* app.css */
+.app {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.search input {
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.container {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.top {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.location p {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.temp h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.description p {
+  font-size: 20px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feels,
+.humidity,
+.wind {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
